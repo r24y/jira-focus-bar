@@ -4,7 +4,6 @@
   "version": "0.0.0",
   "description": "Quick search for JIRA, with heads-up display of your current tickets",
   "keywords": [],
-  "activationCommands": {},
   "consumedServices": {
     "tool-bar": {
       "versions": {
@@ -20,6 +19,8 @@
   "dependencies": {
     "@cycle/dom": "^10.0.5",
     "@cycle/xstream-run": "^3.0.3",
+    "co": "^4.6.0",
+    "isomorphic-fetch": "^2.2.1",
     "xstream": "^5.1.1"
   }
 }
