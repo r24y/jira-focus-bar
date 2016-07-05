@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle jira-focus-bar",
+        "command": "jira-focus-bar:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "jira-focus-bar",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "jira-focus-bar:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

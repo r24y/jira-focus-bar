@@ -1,0 +1,25 @@
+{
+  "name": "jira-focus-bar",
+  "main": "./lib/jira-focus-bar",
+  "version": "0.0.0",
+  "description": "Quick search for JIRA, with heads-up display of your current tickets",
+  "keywords": [],
+  "activationCommands": {},
+  "consumedServices": {
+    "tool-bar": {
+      "versions": {
+        "^0 || ^1": "consumeToolBar"
+      }
+    }
+  },
+  "repository": "https://github.com/atom/jira-focus-bar",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "@cycle/dom": "^10.0.5",
+    "@cycle/xstream-run": "^3.0.3",
+    "xstream": "^5.1.1"
+  }
+}
